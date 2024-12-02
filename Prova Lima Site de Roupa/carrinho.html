@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho - Loja Online</title>
+  <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo">Maze Surf</div>
+    <div class="search-bar">
+      <input type="text" placeholder="O que você está buscando?" />
+      <button><i class="search-icon">🔍</i></button>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="quemsomos.html">Quem Somos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <div class="user-actions">
+      <a href="#" class="icon">📞 Atendimento</a>
+      <a href="carrinho.html" class="icon">🛒 Meu Carrinho</a>
+    </div>
+  </header>
+
+  
+  <section class="cart">
+    <h2>Seu Carrinho</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Imagem</th> 
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="imagem/24858-8238187.jpg" alt="Conjunto Térmico" /></td> 
+          <td>Conjunto Térmico</td>
+          <td>1</td>
+          <td>R$ 339,90</td>
+        </tr>
+        <tr>
+          <td><img src="imagem/1260888_bermuda-agua-rip-curl-mirage-surf-reviva-cbotd925_z3_637877068131547682-1.jpg" alt="Bermuda Surf" /></td> <!-- Imagem do produto -->
+          <td>Bermuda Surf</td>
+          <td>1</td>
+          <td>R$ 79,90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td>R$ 419,80</td>
+        </tr>
+      </tfoot>
+    </table>
+    <button class="btn-checkout">Finalizar Compra</button>
+  </section>
+
+  
+  <footer class="footer">
+    <p>&copy; 2024 maze. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
